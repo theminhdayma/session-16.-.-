@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" modified="2023-12-05T17:02:17.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jDq39kSlyVD8iXt_qSrF" version="22.1.5" type="onedrive">
+  <diagram name="Trang-1" id="fue3XjC_XlEoC7wVwSrM">
+    <mxGraphModel dx="604" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-1" target="NcxYPjqA1Rl_S9tlruSC-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-3" value="FILE *file&lt;br&gt;fileName[] = &quot;bt3&quot;&lt;br&gt;numLines" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-5" value="Nhap dong : numLines" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-7" value="file = fopen (fileName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-9" target="NcxYPjqA1Rl_S9tlruSC-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-29" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NcxYPjqA1Rl_S9tlruSC-10">
+          <mxGeometry x="-0.1913" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-12" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NcxYPjqA1Rl_S9tlruSC-11">
+          <mxGeometry x="0.0976" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-9" value="file == NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-15" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NcxYPjqA1Rl_S9tlruSC-14">
+          <mxGeometry x="0.0725" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-13" target="NcxYPjqA1Rl_S9tlruSC-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="730" />
+              <mxPoint x="220" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-28" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NcxYPjqA1Rl_S9tlruSC-18">
+          <mxGeometry x="-0.6945" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-13" value="i &amp;lt; numLines" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="690" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-20" target="NcxYPjqA1Rl_S9tlruSC-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-20" value="Nhap cho tung dong bằng scan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-22" target="NcxYPjqA1Rl_S9tlruSC-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-22" value="Nhap vao file bằng fprintf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-24" target="NcxYPjqA1Rl_S9tlruSC-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-24" value="fclose ( file )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-26" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NcxYPjqA1Rl_S9tlruSC-27" target="NcxYPjqA1Rl_S9tlruSC-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcxYPjqA1Rl_S9tlruSC-27" value="khong mo duoc file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="850" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

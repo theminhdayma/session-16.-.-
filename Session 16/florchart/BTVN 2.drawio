@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2023-12-05T16:12:37.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="hlTRHRhCBlbNQGXmNpD4" version="22.1.5" type="onedrive">
+  <diagram name="Trang-1" id="I_x9hOFUwj0mQlhcWHuG">
+    <mxGraphModel dx="464" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yhzXX6ZYFZ4sAYlMtNtz-1" target="yhzXX6ZYFZ4sAYlMtNtz-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yhzXX6ZYFZ4sAYlMtNtz-3" target="yhzXX6ZYFZ4sAYlMtNtz-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-3" value="FILE *file,&lt;br&gt;buffer[1000]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yhzXX6ZYFZ4sAYlMtNtz-5" target="yhzXX6ZYFZ4sAYlMtNtz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-5" value="file = fopen (bt1.txt)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yhzXX6ZYFZ4sAYlMtNtz-7" target="yhzXX6ZYFZ4sAYlMtNtz-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-7" value="lưu chuoi vao mang buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yhzXX6ZYFZ4sAYlMtNtz-10" target="yhzXX6ZYFZ4sAYlMtNtz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-10" value="Hiển thị buffer" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yhzXX6ZYFZ4sAYlMtNtz-12" target="yhzXX6ZYFZ4sAYlMtNtz-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-12" value="fclose ( file )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yhzXX6ZYFZ4sAYlMtNtz-14" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
